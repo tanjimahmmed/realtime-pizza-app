@@ -4,7 +4,6 @@ body {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
     color: $dark;
-    height: 4000px;
 }
 
 nav li:last-child a {
@@ -35,7 +34,30 @@ nav li a {
         color: $pure;
     }
 }
-
+.btn-primary {
+    background: $primary;
+    transition: $smooth;
+    &:hover {
+        background: $primary-hover;
+    }
+}
+.cart {
+    background: $secondary;
+    min-height: calc(100vh - 86px);
+    .amount {
+        color: $primary;
+    }
+}
+.login {
+    background: $secondary;
+    min-height: calc(100vh - 86px);
+    a {
+        color: $primary;
+        &:hover {
+            color: $primary-hover;
+        }
+    }
+}
 @media (min-width: 1536px) {
     .container {
         max-width: 1170px;
