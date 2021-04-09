@@ -67,6 +67,9 @@ nav li a {
     border-radius: 50px !important;
     padding-left: 8px !important;
 }
+a.link {
+    color: $primary;
+}
 @media (min-width: 1536px) {
     .container {
         max-width: 1170px;

@@ -349,6 +349,10 @@ nav li a:hover {
   padding-left: 8px !important;
 }
 
+a.link {
+  color: #FE5F1E;
+}
+
 @media (min-width: 1536px) {
   .container {
     max-width: 1170px;
